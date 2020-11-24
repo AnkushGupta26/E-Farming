@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/weaathericon" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/newsImg"
         android:layout_width="146dp"
         android:layout_height="135dp"
         android:layout_marginTop="76dp"
@@ -30,7 +30,7 @@
         app:srcCompat="@drawable/newsicon" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/contactImg"
         android:layout_width="310dp"
         android:layout_height="86dp"
         android:layout_marginBottom="56dp"
