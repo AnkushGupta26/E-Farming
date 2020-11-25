@@ -46,5 +46,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageView productImg = findViewById(R.id.prodcutimg);
+        productImg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //contact Activity
+                Intent newsIntent = new Intent(MainActivity.this, ProgressActivity.class);
+                startActivity(newsIntent);
+            }
+        });
+
     }
 }
